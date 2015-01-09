@@ -239,79 +239,55 @@ button:focus{
 }
 
 .slideHeader {
-	position: absolute;
-	font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;    
-	font-weight: 100;
-	top: 0%;
-	left: 7%;
+	position: relative;
+	float: left;
+	font-weight: 100em;
+	top: -90px;
+	left: 50px;
+	margin: 5%;
 	font-size: 5em;
 	width: 700px;
 	height: auto;
 	line-height: 125%;
 	color: #ffffff;
+	z-index: 0;
 		
 }
 
 .slideData {
-	position: absolute;
-	font-size: 1.5em;
+	position: relative;
+	float: right;
+	bottom: 0px;
+	right: 100px;
+	margin: 5%;
+	font-size: 1em;
 	width: 400px;
 	height: auto; 
 	line-height: 150%;
 	color: #ffffff;
+	z-index: 1;
 }
 
 
 
-/* ----- SLIDE 8 PRINCIPLES ------ */
-#slide-8 {
-	background-color: #409344;
-}
-
-#slideHeaderPrinciples{
-	
-}
-
-#slidePrinciplesData{
-	
-}
-
-#principlesImages{
-	
-}
-
-/* ----- SLIDE 9 SNACK ------ */
-#slide-9 {
-	background-color: #0094B9;
-}
-
-#slideHeaderSnack{
-	
-}
-
-#slideSnackData{
-	
-}
-
-#snackImages{
-	
-
-/* ----- SLIDE 10 WORKING HARD FRIENDS STUFF ------ */
-#slide-10 {
+/* ----- SLIDE 1 PRINCIPLES ------ */
+#slide-1 {
 	background-color: #968AB1;
 }
 
-#slideHeaderDrinks{
-	
+
+/* ----- SLIDE 2  ------ */
+#slide-2 {
+	background-color: #93d4d0;
 }
 
-#slideDrinksData{
 	
+
+/* ----- SLIDE 3 ------ */
+#slide-3 {
+	background-color: #66CDF2;
 }
 
-#DrinksImages{
-	
-}
 
 
 /* OTHER STUFF */
