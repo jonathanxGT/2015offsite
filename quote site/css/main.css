@@ -213,6 +213,7 @@ button:focus{
 
 /* scrollable content */
 
+
 .slide{
     overflow: visible;
     position: relative;
@@ -239,14 +240,18 @@ button:focus{
 }
 
 .slideHeader {
-	position: relative;
+	position: static;
 	float: left;
 	font-weight: 100em;
-	top: -90px;
-	left: 50px;
-	margin: 5%;
+/*
+	top: -12%;
+	left: 3%;
+*/
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 100%;
 	font-size: 5em;
-	width: 700px;
+	width: 60%;
 	height: auto;
 	line-height: 125%;
 	color: #ffffff;
@@ -255,11 +260,13 @@ button:focus{
 }
 
 .slideData {
-	position: relative;
-	float: right;
-	bottom: 0px;
-	right: 100px;
-	margin: 5%;
+	position: static;
+	float: left;
+/*
+	top: 80%;
+	left: 3%;
+*/
+	margin-left: 6%;
 	font-size: 1em;
 	width: 400px;
 	height: auto; 
@@ -267,6 +274,38 @@ button:focus{
 	color: #ffffff;
 	z-index: 1;
 }
+
+h2 {
+	margin: 10px;
+}
+
+
+@media (max-width: 900px) {
+  .slideHeader{
+	 font-size: 4em;
+	 top: 0px;
+	 width: 75%;
+  }
+  
+  .slideData {
+	  font-size: .75em; 
+	  width: 300px;
+  }
+}
+
+@media (max-width: 640px) {
+  .slideHeader{
+	 font-size: 2em;
+	 top: 0px;
+	 width: 75%;
+  }
+  
+  .slideData {
+	  font-size: .75em; 
+	  width: 300px;
+  }
+}
+
 
 
 
