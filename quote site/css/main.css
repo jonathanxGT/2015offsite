@@ -1,0 +1,563 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container {
+    border-bottom: 20px solid #e44d26;
+}
+
+.footer-container,
+.main aside {
+    border-top: 20px solid #e44d26;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: #f16529;
+}
+
+.title {
+    color: white;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    background: #e44d26;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* colors */
+/* gt-blue: #00aeef */
+/* light-grey: #f2f2f2*/
+
+body {
+    background-color:#f2f2f2;
+	font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;    
+	font-weight: 100;
+
+}
+
+
+button{
+    border:none;
+    background-color:transparent;
+    color:#ffffff;
+    font-size:2em;
+    text-align: center
+}
+
+button:hover{
+    color:#00aeef;
+}
+
+button:focus{
+    outline:none;
+}
+
+
+
+/* NAV */
+.nav-button{
+	font-size: 1.5em;
+    width:40px;
+    position:fixed;
+    left:50%;
+    margin-left:-15px;
+    z-index: 10;
+}
+
+.next{
+    bottom:10px;
+}
+
+.previous{
+    top:10px;
+}
+
+
+
+/* SKROLLR */
+
+
+/* scrollable content */
+
+.slide{
+    overflow: visible;
+    position: relative;
+}
+
+.cropbox {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+#titleLabel{
+    position:absolute;
+    width:400px;
+    margin:0px auto;
+    top: 36%;
+    left: 13%;
+    color:#ffffff;
+    height:25%;
+    width: auto;
+    font-size:3em;
+    line-height: 90%;
+}
+
+.slideHeader {
+	position: absolute;
+	font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;    
+	font-weight: 100;
+	top: 0%;
+	left: 7%;
+	font-size: 5em;
+	width: 700px;
+	height: auto;
+	line-height: 125%;
+	color: #ffffff;
+		
+}
+
+.slideData {
+	position: absolute;
+	font-size: 1.5em;
+	width: 400px;
+	height: auto; 
+	line-height: 150%;
+	color: #ffffff;
+}
+
+
+
+/* ----- SLIDE 8 PRINCIPLES ------ */
+#slide-8 {
+	background-color: #409344;
+}
+
+#slideHeaderPrinciples{
+	
+}
+
+#slidePrinciplesData{
+	
+}
+
+#principlesImages{
+	
+}
+
+/* ----- SLIDE 9 SNACK ------ */
+#slide-9 {
+	background-color: #0094B9;
+}
+
+#slideHeaderSnack{
+	
+}
+
+#slideSnackData{
+	
+}
+
+#snackImages{
+	
+
+/* ----- SLIDE 10 WORKING HARD FRIENDS STUFF ------ */
+#slide-10 {
+	background-color: #968AB1;
+}
+
+#slideHeaderDrinks{
+	
+}
+
+#slideDrinksData{
+	
+}
+
+#DrinksImages{
+	
+}
+
+
+/* OTHER STUFF */
+section{
+/*     border-bottom:10px solid pink;  */
+
+}
+
+
+
+/* ANCHORS */
+
+.anchor{
+    position:absolute;
+    width:1px;
+    height:1px;
+    background-color:transparent;
+}
+
+/* add the debug  class to the body tag to show anchors */
+.debug .anchor{
+    width: 100px;
+    height:10px;
+    background-color:white;
+}
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
