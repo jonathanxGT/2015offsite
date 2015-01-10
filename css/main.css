@@ -291,6 +291,10 @@ h2 {
 	  font-size: .75em; 
 	  width: 300px;
   }
+  
+  #introSlideData {
+	font-size: .25em;
+}
 }
 
 @media (max-width: 640px) {
@@ -304,6 +308,10 @@ h2 {
 	  font-size: .75em; 
 	  width: 300px;
   }
+  
+  #introSlideData {
+	font-size: .15em;
+}
 }
 
 
