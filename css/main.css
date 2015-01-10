@@ -301,9 +301,9 @@ h2 {
 
 @media (max-width: 640px) {
   .slideHeader{
-	 font-size: 2em;
+	 font-size: 1.80em;
 	 top: 0px;
-	 width: 75%;
+	 width: 77%;
   }
   
   .slideData {
