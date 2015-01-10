@@ -314,8 +314,8 @@ h2 {
 	background-color: #968AB1;
 }
 
-#introSlide {
-	width: 30%;
+#introSlideData {
+	font-size: .5em;
 }
 
 /* ----- SLIDE 2  ------ */
