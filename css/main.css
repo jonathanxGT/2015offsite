@@ -292,9 +292,11 @@ h2 {
 	  width: 300px;
   }
   
+/*
   #introSlideData {
 	font-size: .25em;
 }
+*/
 }
 
 @media (max-width: 640px) {
@@ -309,9 +311,11 @@ h2 {
 	  width: 300px;
   }
   
+/*
   #introSlideData {
 	font-size: .15em;
 }
+*/
 }
 
 
@@ -322,10 +326,12 @@ h2 {
 	background-color: #968AB1;
 }
 
+/*
 #introSlideData {
 	margin-top: 5px;
 	font-size: .5em;
 }
+*/
 
 /* ----- SLIDE 2  ------ */
 #slide-2 {
